@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using GildedRose.Console;
+using NUnit.Framework;
 
 namespace GildedRose.Tests.Tests
 {

@@ -14,6 +14,12 @@ namespace GildedRose.Console
 
         private static void Run()
         {
+            var app = InitApp();
+            app.UpdateQuality();
+        }
+
+        private static Program InitApp()
+        {
             var app = new Program()
             {
                 Items = new List<Item>
@@ -31,15 +37,14 @@ namespace GildedRose.Console
                     new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
                 }
             };
-
-            app.UpdateQuality();
+            return app;
         }
 
         public void UpdateQuality()
         {
             for (var i = 0; i < Items.Count; i++)
             {
-                if (UpdateQualityForConjured(Items[i]).Success) break;
+                if (QualityUpdater.UpdateForConjured(Items[i]).Success) break;
                 
                 
                 if (Items[i].Name != "Aged Brie" && Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
@@ -113,39 +118,5 @@ namespace GildedRose.Console
                 }
             }
         }
-
-        private UpdateResult UpdateQualityForConjured(Item item)
-        {
-            if (item.Name != "Conjured Mana Cake")
-            {
-                return new UpdateResult(false, item);
-            }
-            
-            item.Quality -= 2;
-            item.SellIn -= 1;
-            return new UpdateResult(true, item);
-        }
     }
-
-    internal class UpdateResult
-    {
-        public bool Success { get;}
-        public Item Item { get;}
-
-        public UpdateResult(bool success, Item item)
-        {
-            Success = success;
-            Item = item;
-        }
-    }
-
-    public class Item
-    {
-        public string Name { get; set; }
-
-        public int SellIn { get; set; }
-
-        public int Quality { get; set; }
-    }
-
 }

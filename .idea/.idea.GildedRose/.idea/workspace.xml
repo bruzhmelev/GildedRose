@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6132c75f-1c4f-498e-8797-03560040cb90" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQualityForConjured.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GildedRose.Console/Models/Item.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GildedRose.Console/Models/QualityUpdater.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GildedRose.Console/Models/UpdateResult.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.GildedRose/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GildedRose/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GildedRose.Console/GildedRose.Console.csproj" afterPath="$PROJECT_DIR$/src/GildedRose.Console/GildedRose.Console.csproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GildedRose.Console/Program.cs" afterPath="$PROJECT_DIR$/src/GildedRose.Console/Program.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GildedRose.Tests/GildedRose.Tests.csproj" afterPath="$PROJECT_DIR$/src/GildedRose.Tests/GildedRose.Tests.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQualityForConjured.cs" afterPath="$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQualityForConjured.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +36,7 @@
       <file leaf-file-name="WhenUpdateQuality.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQuality.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
+            <state relative-caret-position="1134">
               <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
               <folding>
                 <marker date="1513021615354" expanded="true" signature="6:82" ph="..." />
@@ -54,59 +58,93 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WhenUpdateQualityForConjured.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WhenUpdateQualityForConjured.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQualityForConjured.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="136">
+              <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding>
-                <marker date="1513026580202" expanded="true" signature="56:145" ph="{...}" />
-                <marker date="1513026580202" expanded="true" signature="122:143" ph="{...}" />
+                <marker date="1513027240535" expanded="true" signature="6:48" ph="..." />
+                <marker date="1513027240535" expanded="true" signature="82:171" ph="{...}" />
+                <marker date="1513027240535" expanded="true" signature="148:169" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="116" column="53" lean-forward="false" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="53" />
+            <state relative-caret-position="-63">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
-                <marker date="1513026524717" expanded="true" signature="63:4829" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="90:4423" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="170:296" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="331:1178" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="390:1133" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="447:1119" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="843:1016" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="1215:4075" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="1275:4065" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="1508:1830" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="1572:1812" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="1669:1790" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="1851:2822" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="1916:2804" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="2094:2782" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="2174:2438" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="2263:2408" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="2492:2756" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="2581:2726" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="2890:2985" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="3027:4051" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="3099:3792" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="3211:3605" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="3291:3579" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="3404:3549" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="3634:3770" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="3817:4033" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="3890:4011" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="4141:4417" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="4202:4284" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="4456:4667" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="4585:4661" ph="{...}" />
-                <marker date="1513026524717" expanded="true" signature="4690:4826" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="63:4209" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="90:4207" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="170:296" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="331:417" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="459:1296" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="518:1261" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="575:1247" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="971:1144" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="1333:4201" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="1393:4191" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="1634:1956" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="1698:1938" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="1795:1916" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="1977:2948" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="2042:2930" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="2220:2908" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="2300:2564" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="2389:2534" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="2618:2882" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="2707:2852" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="3016:3111" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="3153:4177" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="3225:3918" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="3337:3731" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="3417:3705" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="3530:3675" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="3760:3896" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="3943:4159" ph="{...}" />
+                <marker date="1513027483963" expanded="true" signature="4016:4137" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Models/Item.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+              <folding>
+                <marker date="1513027423331" expanded="true" signature="28:188" ph="{...}" />
+                <marker date="1513027423331" expanded="true" signature="52:186" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateResult.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Models/UpdateResult.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <marker date="1513027397478" expanded="true" signature="28:273" ph="{...}" />
+                <marker date="1513027397478" expanded="true" signature="60:271" ph="{...}" />
+                <marker date="1513027397478" expanded="true" signature="189:265" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QualityUpdater.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Models/QualityUpdater.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,16 +163,22 @@
     <setting file="file://$PROJECT_DIR$/src/GildedRose.Console/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQuality.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/GildedRose.Tests/TestAssemblyTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/GildedRose.Console/Models/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQualityForConjured.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/GildedRose.Console/Models/UpdateResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/GildedRose.Console/Models/QualityUpdater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/GildedRose.Console/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQuality2.cs" />
-        <option value="$PROJECT_DIR$/src/GildedRose.Console/Program.cs" />
         <option value="$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQuality.cs" />
         <option value="$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQualityForConjured.cs" />
+        <option value="$PROJECT_DIR$/src/GildedRose.Console/QualityUpdater.cs" />
+        <option value="$PROJECT_DIR$/src/GildedRose.Console/Models/UpdateResult.cs" />
+        <option value="$PROJECT_DIR$/src/GildedRose.Console/Models/Item.cs" />
+        <option value="$PROJECT_DIR$/src/GildedRose.Console/Program.cs" />
       </list>
     </option>
   </component>
@@ -176,6 +220,12 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="GildedRose (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="GildedRose.Console" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GildedRose (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GildedRose.Console" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -240,12 +290,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513014993855</updated>
-      <workItem from="1513014999598" duration="9577000" />
+      <workItem from="1513014999598" duration="10488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9577000" />
+    <option name="totallyTimeSpent" value="10488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,27 +309,27 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847276" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847276" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.107421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292402" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24865694" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847276" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847276" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.107421875" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292402" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24865694" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,51 +378,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="116" column="53" lean-forward="false" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="53" />
-          <folding>
-            <marker date="1513026524717" expanded="true" signature="63:4829" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="90:4423" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="170:296" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="331:1178" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="390:1133" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="447:1119" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="843:1016" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="1215:4075" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="1275:4065" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="1508:1830" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="1572:1812" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="1669:1790" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="1851:2822" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="1916:2804" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="2094:2782" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="2174:2438" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="2263:2408" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="2492:2756" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="2581:2726" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="2890:2985" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="3027:4051" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="3099:3792" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="3211:3605" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="3291:3579" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="3404:3549" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="3634:3770" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="3817:4033" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="3890:4011" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="4141:4417" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="4202:4284" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="4456:4667" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="4585:4661" ph="{...}" />
-            <marker date="1513026524717" expanded="true" signature="4690:4826" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQuality.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
+        <state relative-caret-position="1134">
           <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding>
             <marker date="1513021615354" expanded="true" signature="6:82" ph="..." />
@@ -395,11 +403,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQualityForConjured.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
-            <marker date="1513026580202" expanded="true" signature="56:145" ph="{...}" />
-            <marker date="1513026580202" expanded="true" signature="122:143" ph="{...}" />
+            <marker date="1513027240535" expanded="true" signature="6:48" ph="..." />
+            <marker date="1513027240535" expanded="true" signature="82:171" ph="{...}" />
+            <marker date="1513027240535" expanded="true" signature="148:169" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Models/QualityUpdater.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Models/UpdateResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1513027397478" expanded="true" signature="28:273" ph="{...}" />
+            <marker date="1513027397478" expanded="true" signature="60:271" ph="{...}" />
+            <marker date="1513027397478" expanded="true" signature="189:265" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Models/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding>
+            <marker date="1513027423331" expanded="true" signature="28:188" ph="{...}" />
+            <marker date="1513027423331" expanded="true" signature="52:186" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <marker date="1513027483963" expanded="true" signature="63:4209" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="90:4207" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="170:296" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="331:417" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="459:1296" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="518:1261" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="575:1247" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="971:1144" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="1333:4201" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="1393:4191" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="1634:1956" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="1698:1938" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="1795:1916" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="1977:2948" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="2042:2930" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="2220:2908" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="2300:2564" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="2389:2534" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="2618:2882" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="2707:2852" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="3016:3111" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="3153:4177" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="3225:3918" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="3337:3731" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="3417:3705" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="3530:3675" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="3760:3896" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="3943:4159" ph="{...}" />
+            <marker date="1513027483963" expanded="true" signature="4016:4137" ph="{...}" />
           </folding>
         </state>
       </provider>
