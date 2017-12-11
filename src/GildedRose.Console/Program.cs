@@ -39,6 +39,9 @@ namespace GildedRose.Console
         {
             for (var i = 0; i < Items.Count; i++)
             {
+                if (UpdateQualityForConjured(Items[i]).Success) break;
+                
+                
                 if (Items[i].Name != "Aged Brie" && Items[i].Name != "Backstage passes to a TAFKAL80ETC concert")
                 {
                     if (Items[i].Quality > 0)
@@ -109,6 +112,30 @@ namespace GildedRose.Console
                     }
                 }
             }
+        }
+
+        private UpdateResult UpdateQualityForConjured(Item item)
+        {
+            if (item.Name != "Conjured Mana Cake")
+            {
+                return new UpdateResult(false, item);
+            }
+            
+            item.Quality -= 2;
+            item.SellIn -= 1;
+            return new UpdateResult(true, item);
+        }
+    }
+
+    internal class UpdateResult
+    {
+        public bool Success { get;}
+        public Item Item { get;}
+
+        public UpdateResult(bool success, Item item)
+        {
+            Success = success;
+            Item = item;
         }
     }
 

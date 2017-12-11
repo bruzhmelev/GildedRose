@@ -54,6 +54,7 @@
         <e p="TestAssemblyTests.cs" t="Include" />
         <e p="Tests" t="Include">
           <e p="WhenUpdateQuality.cs" t="Include" />
+          <e p="WhenUpdateQualityForConjured.cs" t="Include" />
         </e>
       </e>
       <e p="tasks.ps1" t="Include" />
