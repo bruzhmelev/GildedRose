@@ -110,12 +110,6 @@ namespace GildedRose.Console
                 }
             }
         }
-
-        public virtual void SetItems(List<Item> items)
-        {
-            
-        }
-        
     }
 
     public class Item

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6132c75f-1c4f-498e-8797-03560040cb90" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQuality.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GildedRose.Console/Program.cs" afterPath="$PROJECT_DIR$/src/GildedRose.Console/Program.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GildedRose.Tests/GildedRose.Tests.csproj" afterPath="$PROJECT_DIR$/src/GildedRose.Tests/GildedRose.Tests.csproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GildedRose.Tests/packages.config" afterPath="$PROJECT_DIR$/src/GildedRose.Tests/packages.config" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WhenUpdateQuality.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WhenUpdateQuality.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQuality.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="792">
+              <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding>
                 <marker date="1513020885226" expanded="true" signature="6:82" ph="..." />
                 <marker date="1513020885226" expanded="true" signature="116:1230" ph="{...}" />
@@ -51,42 +48,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="602">
+              <caret line="111" column="9" lean-forward="false" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
               <folding>
-                <marker date="1513019406814" expanded="true" signature="63:4236" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="90:4074" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="170:296" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="331:1178" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="390:1133" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="447:1119" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="843:1016" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="1215:3970" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="1275:3960" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="1403:1725" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="1467:1707" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="1564:1685" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="1746:2717" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="1811:2699" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="1989:2677" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="2069:2333" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="2158:2303" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="2387:2651" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="2476:2621" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="2785:2880" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="2922:3946" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="2994:3687" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="3106:3500" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="3186:3474" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="3299:3444" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="3529:3665" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="3712:3928" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="3785:3906" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="4026:4059" ph="{...}" />
-                <marker date="1513019406814" expanded="true" signature="4097:4233" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="63:4138" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="90:3976" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="170:296" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="331:1178" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="390:1133" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="447:1119" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="843:1016" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="1215:3970" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="1275:3960" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="1403:1725" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="1467:1707" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="1564:1685" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="1746:2717" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="1811:2699" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="1989:2677" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="2069:2333" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="2158:2303" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="2387:2651" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="2476:2621" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="2785:2880" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="2922:3946" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="2994:3687" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="3106:3500" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="3186:3474" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="3299:3444" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="3529:3665" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="3712:3928" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="3785:3906" ph="{...}" />
+                <marker date="1513021140684" expanded="true" signature="3999:4135" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,8 +108,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQuality2.cs" />
-        <option value="$PROJECT_DIR$/src/GildedRose.Console/Program.cs" />
         <option value="$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQuality.cs" />
+        <option value="$PROJECT_DIR$/src/GildedRose.Console/Program.cs" />
       </list>
     </option>
   </component>
@@ -166,13 +162,6 @@
               <item name="GildedRose (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="GildedRose.Tests" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="GildedRose (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="GildedRose.Tests" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -238,12 +227,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513014993855</updated>
-      <workItem from="1513014999598" duration="5812000" />
+      <workItem from="1513014999598" duration="6096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5812000" />
+    <option name="totallyTimeSpent" value="6096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,12 +255,12 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847276" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.107421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292402" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3998465" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24865694" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -329,45 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <marker date="1513019406814" expanded="true" signature="63:4236" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="90:4074" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="170:296" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="331:1178" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="390:1133" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="447:1119" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="843:1016" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="1215:3970" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="1275:3960" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="1403:1725" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="1467:1707" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="1564:1685" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="1746:2717" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="1811:2699" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="1989:2677" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="2069:2333" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="2158:2303" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="2387:2651" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="2476:2621" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="2785:2880" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="2922:3946" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="2994:3687" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="3106:3500" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="3186:3474" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="3299:3444" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="3529:3665" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="3712:3928" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="3785:3906" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="4026:4059" ph="{...}" />
-            <marker date="1513019406814" expanded="true" signature="4097:4233" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GildedRose.Tests/TestAssemblyTests.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -382,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GildedRose.Tests/Tests/WhenUpdateQuality.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="792">
+          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
             <marker date="1513020885226" expanded="true" signature="6:82" ph="..." />
             <marker date="1513020885226" expanded="true" signature="116:1230" ph="{...}" />
@@ -395,6 +345,44 @@
             <marker date="1513020885226" expanded="true" signature="808:983" ph="{...}" />
             <marker date="1513020885226" expanded="true" signature="865:969" ph="{...}" />
             <marker date="1513020885226" expanded="true" signature="1039:1104" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GildedRose.Console/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="111" column="9" lean-forward="false" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+          <folding>
+            <marker date="1513021140684" expanded="true" signature="63:4138" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="90:3976" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="170:296" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="331:1178" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="390:1133" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="447:1119" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="843:1016" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="1215:3970" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="1275:3960" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="1403:1725" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="1467:1707" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="1564:1685" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="1746:2717" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="1811:2699" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="1989:2677" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="2069:2333" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="2158:2303" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="2387:2651" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="2476:2621" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="2785:2880" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="2922:3946" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="2994:3687" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="3106:3500" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="3186:3474" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="3299:3444" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="3529:3665" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="3712:3928" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="3785:3906" ph="{...}" />
+            <marker date="1513021140684" expanded="true" signature="3999:4135" ph="{...}" />
           </folding>
         </state>
       </provider>
