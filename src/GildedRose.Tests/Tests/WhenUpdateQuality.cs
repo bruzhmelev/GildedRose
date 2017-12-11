@@ -8,7 +8,7 @@ namespace GildedRose.Tests.Tests
     public class WhenUpdateQuality
     {
         [Test]
-        public void IfItsNormalItem_ThenMakeLowerBothValuesForEveryItem()
+        public void ItsNormalItem_ThenMakeLowerBothValuesForEveryItem()
         {
             var app = new Program()
             {
@@ -20,12 +20,12 @@ namespace GildedRose.Tests.Tests
 
             app.UpdateQuality();
             
-            Assert.AreEqual(9, app.Items[0].SellIn);
-            Assert.AreEqual(19, app.Items[0].Quality);
+            Assert.AreEqual(9, app.Items[0].SellIn, "SellIn");
+            Assert.AreEqual(19, app.Items[0].Quality, "Quality");
         }
         
         [Test]
-        public void IfUpdetedOneHundredTimes_NotNegative()
+        public void UpdetedOneHundredTimes_ThenNotNegative()
         {
             var app = new Program()
             {
@@ -40,7 +40,27 @@ namespace GildedRose.Tests.Tests
                 app.UpdateQuality();
             }
             
-            Assert.IsTrue(app.Items[0].Quality >= 0, $"Expected {app.Items[0].Quality} >= 0");
+            Assert.IsTrue(app.Items[0].Quality >= 0, $"Expected Quality {app.Items[0].Quality} >= 0");
+        }
+
+        /// <summary>
+        /// Conjured” items degrade in Quality twice as fast as normal items
+        /// </summary>
+        [Test]
+        public void ConjuredItemDegradeOneTime_ThenTwiceFaster()
+        {
+            var app = new Program()
+            {
+                Items = new List<Item>
+                {
+                    new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
+                }
+            };
+
+            app.UpdateQuality();
+            
+            Assert.AreEqual(2, app.Items[0].SellIn, "SellIn");
+            Assert.AreEqual(4, app.Items[0].Quality, "Quality");
         }
     }
 }
